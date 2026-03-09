@@ -1,0 +1,12 @@
+{
+    "name": "utils-service",
+    "version": "1.0.0",
+    "description": "Auxiliary routing and static file server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Hieudevzxc",
+    "license": "ISC"
+}
