@@ -1,0 +1,57 @@
+# System Files
+.DS_Store
+Thumbs.db
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+docker-compose.override.yml
+
+# WordPress
+public_html/wp-content/uploads/
+public_html/wp-content/cache/
+public_html/wp-content/upgrade/
+public_html/wp-content/backups/
+public_html/wp-config.php.bak
+
+# Large Archives & Backups
+*.zip
+*.tar.gz
+*.sql.gz
+*.sql
+!onxe_database.sql
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+error_log
+access_log
+
+# Go API specific
+onxewp/driver-license-api-go/main
+public_html/driver-license-api-go/main
+
+#Ảnh biển báo đầu vào
+Biển báo đàu vào
+
+#120 video
+tool/120_videos
+tool/hoc-lai-xe-120-assets
+tool/images
+tool/node_modules
+images
+
+generate_import.py
+chapter&title.txt
+linkimage.txt
+output_import.json
+positions.json
